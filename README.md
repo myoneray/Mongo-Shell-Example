@@ -1,5 +1,5 @@
 
-### SHELL 
+### Shell-Mongo-Example
 ```
 
 ```
@@ -64,8 +64,8 @@ test
 ```
 > db.col.insert({title: 'MongoDB 教程', 
 ...     description: 'MongoDB 是一个 Nosql 数据库',
-...     by: '菜鸟教程',
-...     url: 'http://www.runoob.com',
+...     by: '麦子教程',
+...     url: '想嘻嘻嘻嘻嘻嘻',
 ...     tags: ['mongodb', 'database', 'NoSQL'],
 ...     likes: 100
 ... })
@@ -73,24 +73,24 @@ test
 ### 查找所有数据
 ```
 > db.col.find();
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
 ```
 ### 插入许多条数据
 ```
-> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '菜鸟教程',     url: 'http://www.runoob.com',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
-> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '菜鸟教程',     url: 'http://www.runoob.com',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
-> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '菜鸟教程',     url: 'http://www.runoob.com',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
-> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '菜鸟教程',     url: 'http://www.runoob.com',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
+> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '麦子教程',     url: '想嘻嘻嘻嘻嘻嘻',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
+> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '麦子教程',     url: '想嘻嘻嘻嘻嘻嘻',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
+> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '麦子教程',     url: '想嘻嘻嘻嘻嘻嘻',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
+> db.col.insert({title: 'MongoDB 教程',     description: 'MongoDB 是一个 Nosql 数据库',     by: '麦子教程',     url: '想嘻嘻嘻嘻嘻嘻',     tags: ['mongodb', 'database', 'NoSQL'],     likes: 100 })
 
 ```
 ### 查找所有数据
 ```
 > db.col.find();
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
 ```
 ### 总条数
 ```
@@ -103,18 +103,18 @@ test
 ```
 >  db.col.update({"title":"MongoDB 教程"},{$set:{"title":"updateMongoJiaoCheng"}}); 
 > db.col.find();
-{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "菜鸟教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "http://www.runoob.com" }
+{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "MongoDB 教程", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "麦子教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "想嘻嘻嘻嘻嘻嘻" }
 
 
 ```
@@ -122,18 +122,18 @@ test
 ```
 > db.col.update({"title":"MongoDB 教程"},{$set:{"title":"mongoUpdateAll"}},{multi:true});
 > db.col.find();
-{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "菜鸟教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "http://www.runoob.com" }
+{ "_id" : ObjectId("56419104266eb3dc31bcd10b"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "麦子教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "想嘻嘻嘻嘻嘻嘻" }
 
 ```
 ### 更新所有符合`{"_id":ObjectId("56419112266eb3dc31bcd115")`的唯一一条数据
@@ -141,17 +141,17 @@ test
 > db.col.save({"_id" : ObjectId("56419104266eb3dc31bcd10b"),"tittle":"UpdateByID"});
 > db.col.find();
 { "_id" : ObjectId("56419104266eb3dc31bcd10b"), "tittle" : "UpdateByID" }
-{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "菜鸟教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "http://www.runoob.com" }
+{ "_id" : ObjectId("56419107266eb3dc31bcd10c"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "麦子教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "想嘻嘻嘻嘻嘻嘻" }
 ```
 ### 再来一次　（ ＴДＴ）　更新所有符合`{"_id":ObjectId("56419107266eb3dc31bcd10c")`的唯一一条数据
 ```
@@ -159,32 +159,32 @@ test
 > db.col.find();
 { "_id" : ObjectId("56419104266eb3dc31bcd10b"), "tittle" : "UpdateByID" }
 { "_id" : ObjectId("56419107266eb3dc31bcd10c"), "tittle" : "UpdateByID" }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "菜鸟教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "http://www.runoob.com" }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "麦子教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "想嘻嘻嘻嘻嘻嘻" }
 
 ```
 ### 删除更新的那两条数据　川´･ω･`川
 ```
 > db.col.remove({"tittle":"UpdateByID"});
 > db.col.find();
-{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "菜鸟教程", "url" : "http://www.runoob.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
-{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "菜鸟教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "http://www.runoob.com" }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10d"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419108266eb3dc31bcd10e"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910e266eb3dc31bcd10f"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd110"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("5641910f266eb3dc31bcd111"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd112"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419110266eb3dc31bcd113"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419111266eb3dc31bcd114"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("56419112266eb3dc31bcd115"), "title" : "mongoUpdateAll", "description" : "MongoDB 是一个 Nosql 数据库", "by" : "麦子教程", "url" : "想嘻嘻嘻嘻嘻嘻", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+{ "_id" : ObjectId("564190b0266eb3dc31bcd10a"), "by" : "麦子教程", "description" : "MongoDB 是一个 Nosql 数据库", "likes" : 100, "tags" : [  "mongodb",  "database",  "NoSQL" ], "title" : "updateMongoJiaoCheng", "url" : "想嘻嘻嘻嘻嘻嘻" }
 ```
 ### 删除所有的数据　(#+_+)
 ```
