@@ -1,5 +1,5 @@
 shell操作数据库：
- 
+ :shipit:　:shipit:　:shipit:　:shipit:　:shipit: :shipit: :shipit: :shipit: :shipit:
 1> 超级用户相关：
 
          1>进入数据库admin
