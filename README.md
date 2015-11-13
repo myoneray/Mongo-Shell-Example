@@ -2,15 +2,15 @@ shell操作数据库：
  
 1.  超级用户相关：
          1. #进入数据库admin
-          use admin
+          ***use admin***
          2. #增加或修改用户密码
-          db.addUser('name','pwd')
+          ***db.addUser('name','pwd')***
          3. #查看用户列表
-          db.system.users.find()
+          **db.system.users.find()**
          4. #用户认证
-          db.auth('name','pwd')
+          **db.auth('name','pwd')**
          5. #删除用户
-          db.removeUser('name')
+          **db.removeUser('name')**
          6. #查看所有用户
           show users
          7. #查看所有数据库
